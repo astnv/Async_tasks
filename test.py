@@ -5,7 +5,7 @@ counter = 0
 
 async def increment():
     global counter
-    for _ in range(100000):
+    for _ in range(1000):
         counter += 1  # Увеличиваем счетчик
 
 async def main():
